@@ -1,4 +1,5 @@
 # Gone.
+A classic text-based adventure game with a not-so-classic story.
 
 ## Credits
 * [Agus Gunawan](https://github.com/agusgun)
