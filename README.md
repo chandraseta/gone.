@@ -1,6 +1,8 @@
 # Gone.
 A classic text-based adventure game with a not-so-classic story.
 
+![Gone Title](https://raw.githubusercontent.com/rionaldichandraseta/Gone./master/img/Gone_1.jpeg "Gone Title")
+
 ## Credits
 * [Agus Gunawan](https://github.com/agusgun)
 * [Felix Limanta](https://github.com/felixlimanta)
