@@ -2,44 +2,44 @@
 <html>
   <head>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>CS256: Mobile Web development - structure</title>
+     <title>RC - Gone.</title>
+
+    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <!--<script src="vendors/jquery.easings.min.js"></script>-->
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <!--<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>-->
+
+    <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
+
   </head>
-  <body>   
-    <div id="headline">
-      <header>
-        <h1></h1>
-        <p></p>
-      </header>
-      <div id="blurb">
-        <p></p>
-        <ul>
-          <li>
-        </ul>
+  <body>
+
+    <div id="fullpage">
+
+      <div class="section" id="intro">Section 1</div>
+      <div class="section" id="gameplay">
+        Section 2
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
       </div>
-      <form method="post" id="register"> 
-      </form>
+      <div class="section" id="gameplay_dark">Section 3</div>
+
     </div>
-    <div id="section1">
-      <h2></h2>
-      <p></p>
-      <ul>
-        <li>
-      </ul>
-      <video></video>
-    </div>
-    <div id="section2">
-      <h2></h2>
-      <p></p>
-      <div id="images">
-        <img>
-      </div>
-    </div>
-    <div id="section3">
-      <h2></h2>
-      <p></p>
-    </div>
-    <footer>
-      <p></p>
-    </footer>
+
   </body>
 </html>
